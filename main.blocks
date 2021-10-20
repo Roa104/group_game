@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="-pCtcP0`8I~l~$;aY.{d">mySprite</variable><variable type="KIND_SpriteKind" id="c!8Vv_8ZbHNSXcqa4b8D">Player</variable><variable type="KIND_SpriteKind" id="DS[mv6Z%b22g(Q:-0q[s">Projectile</variable><variable type="KIND_SpriteKind" id="zB^OvUfd~rc3t=%R%{Lq">Food</variable><variable type="KIND_SpriteKind" id="wv:NP2$8Sc/}I^ElLDlB">Enemy</variable></variables><block type="pxt-on-start" id="*`yX#C*EyqGW)[l[O:Tf" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="D]S!i:j,KKf+$:B7m!1*"><field name="VAR" id="-pCtcP0`8I~l~$;aY.{d">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Bn;rhH9Mb.7JSm~.A@*4"><value name="img"><shadow type="screen_image_picker" id="!x}O15%nnf[7kDitZo0F"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="c!8Vv_8ZbHNSXcqa4b8D">Player</variable><variable type="KIND_SpriteKind" id="DS[mv6Z%b22g(Q:-0q[s">Projectile</variable><variable type="KIND_SpriteKind" id="zB^OvUfd~rc3t=%R%{Lq">Food</variable><variable type="KIND_SpriteKind" id="wv:NP2$8Sc/}I^ElLDlB">Enemy</variable><variable id="-pCtcP0`8I~l~$;aY.{d">mySprite</variable><variable id="7O-NfG69:Y@O`wF7Nx_0">mySprite2</variable></variables><block type="pxt-on-start" id="*`yX#C*EyqGW)[l[O:Tf" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="D]S!i:j,KKf+$:B7m!1*"><field name="VAR" id="-pCtcP0`8I~l~$;aY.{d">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Bn;rhH9Mb.7JSm~.A@*4"><value name="img"><shadow type="screen_image_picker" id="!x}O15%nnf[7kDitZo0F"><field name="img">img`
 . . . . . . . . . . b 5 b . . . 
 . . . . . . . . . b 5 b . . . . 
 . . . . . . b b b b b b . . . . 
@@ -136,4 +136,21 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
 dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-`</field><data>{"commentRefs":[],"fieldData":{"img":"N$E?G+rtv.CdcErG()+I"}}</data></shadow></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"N$E?G+rtv.CdcErG()+I"}}</data></shadow></value><next><block type="variables_set" id="be}ti;FmBK92LRgornQ4"><field name="VAR" id="7O-NfG69:Y@O`wF7Nx_0">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="br9.MW3-WI78~H)pFl08"><value name="img"><shadow type="screen_image_picker" id="-LbjU~lXT/^y$R7B7J@("><field name="img">img`
+. . . . . . . f f . . . . . . . 
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. f e 3 3 3 3 3 3 3 3 3 3 e f . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f b 3 f f e e e e f f 3 b f . 
+f f b b f b f e e f b f b b f f 
+f b b b e 1 f 4 4 f 1 e b b b f 
+. f b b e e 4 4 4 4 4 f b b f . 
+. . f 4 4 4 e d d d b f e f . . 
+. . f e 4 4 e d d d d c 4 e . . 
+. . . f e e d d b d b b f e . . 
+. . . f f 1 d 1 d 1 1 f f . . . 
+. . . . . f f f b b f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-LbjU~lXT/^y$R7B7J@("}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="O]OB_%+j+,n]#qh~Sh2p"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
